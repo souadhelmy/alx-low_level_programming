@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * cap_string - capitalizes every first letter of a word in a string
  * separators of words are: space, tabulation
@@ -6,7 +7,7 @@
  * @s: POinter to string
  * Return: Pointer to s
  */
-char *cap_string(char *);
+char *cap_string(char *s)
 {
 	int count;
 	count = 0;
