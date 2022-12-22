@@ -6,7 +6,7 @@
  * @s: POinter to string
  * Return: Pointer to s
  */
-char *cap_string(char *s)
+char *cap_string(char *);
 {
 	int count;
 	count = 0;
