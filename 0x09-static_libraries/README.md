@@ -1,1 +1,1 @@
-hello read
+Static Library
