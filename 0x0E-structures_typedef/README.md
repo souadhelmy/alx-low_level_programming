@@ -1,1 +1,1 @@
-hello
+Structure and type def
