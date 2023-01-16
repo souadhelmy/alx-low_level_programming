@@ -1,1 +1,1 @@
-low level programming
+Structure and type def
