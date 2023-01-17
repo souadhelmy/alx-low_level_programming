@@ -1,1 +1,1 @@
-Structure and type def
+Structure _typedef
