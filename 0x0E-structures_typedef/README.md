@@ -1,1 +1,1 @@
-hello
+Structure _typedef
