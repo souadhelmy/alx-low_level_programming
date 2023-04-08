@@ -28,3 +28,23 @@ void hash_table_delete(hash_table_t *ht)
 	free(head->array);
 	free(head);
 }
+/**
+ * free_hash_list - frees a hash_node_t list
+ * @head: head of linked list
+ */
+void free_hash_list(hash_node_t *head)
+{
+	hash_node_t *current;
+	hash_node_t *next;
+
+	current = head;
+
+	while (current != NULL)
+	{
+		next = current->next;
+		free(current->key);
+		free(current->value);
+		free(current);
+		current = next;
+	}
+}
