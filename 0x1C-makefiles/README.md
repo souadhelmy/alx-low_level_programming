@@ -8,3 +8,4 @@ In this project folder, I have learnt about:
 -    What are the most common / useful rules
 -    What are variables and how to set and use them
 
+0x1C. C - Makefiles
